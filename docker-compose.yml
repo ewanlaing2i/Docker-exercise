@@ -8,13 +8,3 @@ services:
     build: ./server
     ports:
       - 9000:9000
-#     environment:
-#       DB_URL: mongodb://db/shop
-#   db:
-#     image: mongo:4.0-xenial
-#     ports:
-#       - 27017:27017
-#     volumes:
-#       - dockerComposeTest:/data/db
-# volumes:
-#   dockerComposeTest:
